@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "SignalScope: Build Debug APK",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}\\Build-Windows.ps1"],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
